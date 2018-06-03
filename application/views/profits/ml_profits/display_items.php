@@ -1,3 +1,6 @@
+<?php
+setlocale(LC_MONETARY,"es_CO");
+?>
 <script src="<?=base_url()?>template/devoops/plugins/dialog/messi.min.js"></script>
 <link rel="stylesheet" href="<?=base_url()?>template/devoops/plugins/dialog/messi.min.css" />
 
