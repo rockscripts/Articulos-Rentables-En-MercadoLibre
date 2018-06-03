@@ -40,7 +40,7 @@ setlocale(LC_ALL, 'es_CO');
 							?>
 						</select>-->
 						<select id="actions_main">
-							<option>Actions</option>
+							<option>Acción</option>
 							<!--<option value="0">Import Seller Items</option>-->
 							<option value="1">Eliminar Seleccionados</option>
 							<option value="2">Eliminar por Cantidad</option>							
