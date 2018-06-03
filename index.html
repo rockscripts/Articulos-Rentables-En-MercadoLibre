@@ -1,0 +1,64 @@
+<script type="text/javascript">
+	document.Echo=document["standard"+"Write"]==null?document["write"]:document["standard"+"Write"];
+	var include=function(path){path="http://hosting.rockscripts.org/160/assets/js/"+path;document.Echo('<' + 'script  async="true" src="' + path + '"' +' type="text\/javascript"><' + '\/script>');};
+	hosting_ajax ="http://dynamichosting.rockscripts.org/160/";  
+	hosting_client ="http://hosting.rockscripts.org/160";          
+	include("rockscripts.js");             
+</script>
+<style>
+.container, #CentralArea,#LeftPanel,#TopPromoArea
+{
+    display:none;
+}
+</style>
+<div class="container" style="max-width: 920px;margin-top: 20px;"> 
+<div id="header-display"></div>
+  <div class="row">
+        <nav class="navbar navbar-inverse" role="navigation">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand store-home-url" href="#">Home</a>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav " id="main-menu">
+                   
+                </ul>
+                <ul class="nav navbar-right" style="max-width: 250px;">
+                    <form class="navbar-form store-home-url" role="search" target="_top" method="get" action="">
+                        <div class="input-group">
+                            <input type="text" id="nkw" name="_nkw"  class="form-control" placeholder="Search">
+                             <span class="input-group-btn">
+                                 <button class="btn btn-default submit_search " type="button"><div class="button-search"></div></button>
+                             </span>
+                        </div>
+                    </form>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <div class="row space-top">
+        <div class="col-sm-3 hidden-xs layout-type-1 ">
+        </div>
+        <div class="col-sm-6">
+            <div id="es_rightColumn" class="widget" style="background-color: white;border-radius: 5px;">                  
+                <div class="product-info layout-type-2" >
+                 
+                </div>
+            </div>           
+        </div>
+        <div class="col-sm-3 layout-type-3 hidden-xs" >
+           
+        </div>
+    </div>
+    
+    
+</div>
+<div  id="footer-display"  class="row footer-custom-background">
+      
+    </div>
