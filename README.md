@@ -1,22 +1,22 @@
-<h1>ARTICULOS RENTABLES EN MERCADO LIBRE</h1>
+<h1>ARTÍCULOS RENTABLES EN MERCADO LIBRE</h1>
 <p>
-Encuentra articulos rentables analizando vendedores o filtrados por categoria en la plataforma de <a href='https://www.mercadolibre.com/' target='_blank'>Mercado Libre</a> y todos los paises que ofrece el servicio.
+Encuentra artículos rentables analizando vendedores o filtrados por categoria en la plataforma de <a href='https://www.mercadolibre.com/' target='_blank'>Mercado Libre</a> y todos los países que ofrece el servicio.
 </p>
 <p>
 <img src='template/devoops/img/MLarticulos.png'>
 </p>
 
-<h1>INSTALANDO APPLICACION</h1>
+<h1>INSTALANDO APPLICACIÓN</h1>
 <p>
     Esta aplicación está basada en la web con codeigniter framework y debe tener un servidor web instalado en su sistema operativo como XAMPP o Lampp o un servidor en vivo contratado con alguna empresa de hosting. No requiere ninguna configuración especial en el servidor.
 </p>
 <p>
     <ol>
         <li>
-         Use un dominio para esta aplicación. Si es un servidor local, cree un dominio virtual como <b> mlrentables.com </ b>. Amablemente, consulte en Google "crear un host virtual para el servidor web apache (XAMPP; LAMPP)", reemplace el servidor web por el suyo.
+         Use un dominio para esta aplicación. Si es un servidor local, cree un dominio virtual <b> mlrentables.com </b>. Tambien lo puede hacer con localhost:8080 localhost en donde se ejecuta el servicio.
         </li>
         <li>
-          En PHPMYADMIN, cree una base de datos e importe database.sql ubicado en el proyecto raíz.
+          En PHPMYADMIN, crear una base de datos con su nombre e importe database.sql ubicado en el proyecto raíz.
         </li>
         <li>
           Descargue y suba los archivos de proyecto en su servidor web. Si está trabajando en local y tiene GIT instalado, solo use el comando siguiente de git: <br>

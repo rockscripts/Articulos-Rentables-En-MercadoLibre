@@ -31,7 +31,7 @@
 <body> 
 <div class="loader-image"></div>
     <header style="background: #fff159;  height: 100px;text-align: center;text-shadow: 3px 1px white;">
-        <h1 class='logo-text'>Articulos Rentables</h1>
+        <h1 class='logo-text'>Artículos Rentables</h1>
     </header>
 
 

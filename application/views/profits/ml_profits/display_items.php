@@ -21,7 +21,7 @@
 			
 			<div class="box-content">
 			
-				<h4 class="page-header">Articulos Rentables / <b><?=$_GET['sellerID']?></b></h4>
+				<h4 class="page-header">Artículos Rentables / <b><?=$_GET['sellerID']?></b></h4>
 				<div class="buttons-area">					
 					<div class="row form-group">
 					<div class="col-sm-12"> 
