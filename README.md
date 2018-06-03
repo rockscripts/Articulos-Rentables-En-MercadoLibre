@@ -1,6 +1,6 @@
 <h1>ARTICULOS RENTABLES EN MERCADO LIBRE</h1>
 <p>
-Encuentra articulos rentables analizando vendedores o filtrados por categoria en la plataforma de Mercado Libre. 
+Encuentra articulos rentables analizando vendedores o filtrados por categoria en la plataforma de <a href='https://www.mercadolibre.com/' target='_blank'>Mercado Libre</a> y todos los paises que ofrece el servicio.
 </p>
 <p>
 <img src='template/devoops/img/MLarticulos.png'>
