@@ -1,5 +1,6 @@
 <?php
 setlocale(LC_MONETARY,"es_CO");
+setlocale(LC_ALL, 'es_CO');
 ?>
 <script src="<?=base_url()?>template/devoops/plugins/dialog/messi.min.js"></script>
 <link rel="stylesheet" href="<?=base_url()?>template/devoops/plugins/dialog/messi.min.css" />
@@ -24,7 +25,7 @@ setlocale(LC_MONETARY,"es_CO");
 			
 			<div class="box-content">
 			
-				<h4 class="page-header">Articulos Rentables</h4>
+				<h4 class="page-header">Articulos Rentables / <b><?=$_GET['sellerID']?></b></h4>
 				<div class="buttons-area">					
 					<div class="row form-group">
 					<div class="col-sm-12"> 
